@@ -27,11 +27,11 @@ class ShowProfile extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Sakshi',
+                          'Fredo',
                           style: kTextStyle4,
                         ),
                         Text(
-                          'FLUTTER DEVELOPER',
+                          '210711446',
                           style: kTextStyle5,
                         )
                       ],

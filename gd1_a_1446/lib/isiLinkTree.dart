@@ -21,20 +21,20 @@ class _IsiLinkTreeState extends State<IsiLinkTree> {
         ),
         const CardForlinkTree(
           icon: Icons.email,
-          text: 'broman@gmail.com',
+          text: 'ronanfredo@gmail.com',
         ),
         CardForlinkTree(
-          icon: FontAwesomeIcons.instagram,
-          text: 'Instagram',
+          icon: FontAwesomeIcons.youtube,
+          text: 'Youtube',
           onPressed: () {
-            Direct.launchURL('https://www.instagram.com/');
+            Direct.launchURL('https://www.youtube.com/');
           },
         ),
         CardForlinkTree(
-          icon: FontAwesomeIcons.facebook,
-          text: 'Facebook',
+          icon: FontAwesomeIcons.discord,
+          text: 'Discord',
           onPressed: () {
-            Direct.launchURL('https://www.facebook.com/');
+            Direct.launchURL('https://www.discord.com/');
           },
         )
       ],
